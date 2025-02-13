@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Valentine's Card to Rachel</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="card" onclick="openCard()">
+            <div class="front">
+                <h2 class="title">To Rachel...</h2>
+                <p class="click">Click to open</p>
+            </div>
+            <div class="inside">
+                <h2 class="message">Happy Valentine's day!</h2>
+                <p class="note">Will you be my Valentine?🥺👉👈</p>
+                <button onclick="closeCard(event)">Yes</button>
+                <button oneclick="stopCard(event)">No</button>
+            </div>
+        </div>
+        <script src="js/script.js"></script>
+    </body>
+</html>
